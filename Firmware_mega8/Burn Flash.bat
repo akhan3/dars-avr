@@ -1,0 +1,1 @@
+H:\avr\avrsp\avrsp.exe "G:\DaR mega8\Firmware_mega8\Firmware.hex"

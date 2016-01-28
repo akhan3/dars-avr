@@ -1,0 +1,229 @@
+(ExpressProject "E-Attendant"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\lib\avr.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "5")
+    (EDIF_Netlist_File "E-ATTENDANT.EDN")
+    (EDIF_Allow_NonEDIF "FALSE")
+    (EDIF_Pin_Names "FALSE")
+    (EDIF_No_Library "FALSE")
+    (EDIF_Net_Props "FALSE")
+    (EDIF_Part_Props "FALSE")
+    (EDIF_Pin_Props "FALSE")
+    (EDIF_Designators "FALSE")
+    (EDIF_Part_Value "{Value}")
+    (EDIF_PCB_Footprint "{PCB Footprint}")
+    (EDIF_View_Output "FALSE")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}")
+    (PSPICE_Output_File "E-ATTENDANT-SCHEMATIC1.NET")
+    (PSPICE_View_Output "FALSE")
+    (PSPICE_Subcircuit_Format "FALSE")
+    (PSPICE_Do_DRC_Markers "FALSE")
+    (PSPICE_Hier_Format "FALSE")
+    (PSPICE_Hier_Descend "FALSE")
+    (PSPICE_Hier_DoNot_Descend "FALSE")
+    (PSPICE_Alt_Template "PSpiceTemplate")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Report_File "G:\test pcb1\only DAR\sch\dar.DRC")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "G:\test pcb1\only DAR\sch\DAR.bom")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File "H:\E-ATTENDANCE PCB\SCH\E-ATTENDANT.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (BOM_View_Output "FALSE")
+    (LAYOUT_Netlist_File "DAR.mnl")
+    (LAYOUT_PCB_Footprint "{PCB Footprint}")
+    (FALSE)
+    (LAYOUT_Units "0")
+    (FALSE)
+    (File ".\dar.dsn"
+      (Type "Schematic Design"))
+    (FALSE)
+    (FALSE)
+    (FALSE)
+    (FALSE)
+    (FALSE)
+    (FALSE)
+    (FALSE)
+    (FALSE)
+    (FALSE)
+    (FALSE)
+    (SPICE_Netlist_File "DAR.CIR")
+    (SPICE_Net_Names "FALSE")
+    (SPICE_Unconnected_Pins "FALSE")
+    (SPICE_View_Output_Netlist_File "FALSE")
+    (SPICE_Subckt_Parameters "0")
+    (SPICE_Part_Value "{Value}")
+    (SPICE_Map_File "DAR.MAP")
+    (SPICE_View_Output_Map_File "FALSE")
+    (FALSE)
+    (FALSE)
+    (FALSE)
+    (FALSE)
+    (FALSE)
+    (FALSE))
+  (Folder "Outputs"
+    (File ".\dar.drc"
+      (Type "Report"))
+    (File ".\dar.mnl"
+      (Type "LAYOUT Netlist File"))
+    (File ".\dar.bom"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (54ALS133
+      (FullPartName "54ALS133.Normal")
+      (LibraryName "D:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\GATE.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "D:\PROGRA~1\ORCAD\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("CAP POL"
+      (FullPartName "CAP POL.Normal")
+      (LibraryName "D:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (UART_con
+      (FullPartName "UART_con.Normal")
+      (LibraryName "G:\TEST PCB\LIB\AVR.OLB")
+      (DeviceIndex "0"))
+    (MAX232
+      (FullPartName "MAX232.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\LINEDRIVERRECEIVER.OLB")
+      (DeviceIndex "0"))
+    (74LS05
+      (FullPartName "74LS05.Normal")
+      (LibraryName "D:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\GATE.OLB")
+      (DeviceIndex "1"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "D:\PROGRA~1\ORCAD\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "E:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (ATmega8535
+      (FullPartName "ATmega8535.Normal")
+      (LibraryName "G:\TEST PCB\LIB\AVR.OLB")
+      (DeviceIndex "0"))
+    (CON3
+      (FullPartName "CON3.Normal")
+      (LibraryName "D:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (VCC_ARROW
+      (LibraryName "D:\PROGRA~1\ORCAD\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 25X2"
+      (FullPartName "HEADER 25X2.Normal")
+      (LibraryName "D:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (74LS154
+      (FullPartName "74LS154.Normal")
+      (LibraryName "D:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\MUXDECODER.OLB")
+      (DeviceIndex "0"))
+    (2N2222
+      (FullPartName "2N2222.Normal")
+      (LibraryName "D:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (CRYSTAL
+      (FullPartName "CRYSTAL.Normal")
+      (LibraryName "D:\PROGRA~1\ORCAD\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (ATmega8
+      (FullPartName "ATmega8.Normal")
+      (LibraryName "G:\DAR\NEW PCB\LIB\AVR.OLB")
+      (DeviceIndex "0"))
+    (CON10
+      (FullPartName "CON10.Normal")
+      (LibraryName "D:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON12
+      (FullPartName "CON12.Normal")
+      (LibraryName "D:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("SW KEY-SPST"
+      (FullPartName "SW KEY-SPST.Normal")
+      (LibraryName "D:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("SW SPDT"
+      (FullPartName "SW SPDT.Normal")
+      (LibraryName "D:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("SW SLIDE-SPST"
+      (FullPartName "SW SLIDE-SPST.Normal")
+      (LibraryName "D:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CON8
+      (FullPartName "CON8.Normal")
+      (LibraryName "D:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (ISP_con
+      (FullPartName "ISP_con.Normal")
+      (LibraryName "H:\E-ATTENDANCE PCB\LIB\AVR.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "D:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LCD_con
+      (FullPartName "LCD_con.Normal")
+      (LibraryName "H:\E-ATTENDANCE PCB\LIB\AVR.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "D:\Program Files\Orcad\Capture\Library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "I:\my Electronix\BE projects\DARs archive 06-07\DaR mega8\schematic\sch\dar.dsn")
+      (Path "Design Resources"
+         "I:\my Electronix\BE projects\DARs archive 06-07\DaR mega8\schematic\sch\dar.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "I:\my Electronix\BE projects\DARs archive 06-07\DaR mega8\schematic\sch\dar.dsn"
+         "SCHEMATIC1" "DAR sch"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 160 595 -4 -23 5 238 1 372"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 44 866 44 492")
+        (Scroll "0 310")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "I:\MY ELECTRONIX\BE PROJECTS\DARS ARCHIVE 06-07\DAR MEGA8\SCHEMATIC\SCH\DAR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "DAR sch"))))

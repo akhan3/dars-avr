@@ -1,0 +1,35 @@
+Digital Attendance Recorder  Revised: Tuesday, April 24, 2007
+          Revision: 
+
+Department of Electronic Engineering
+NED Univeristy of Engineering & Technology
+
+
+
+
+Bill Of Materials          April 24,2007      9:45:10	Page1
+
+Item	Quantity	Reference	Part
+______________________________________________
+
+1	1	CIREG1	470uF
+2	2	COREG1,CIREG2	0.1uF
+3	5	CM1,CM2,CM3,CM4,CM5	1uF
+4	2	CX2,CX1	22pF
+5	1	J1	LCD_con
+6	1	J2	XTAL
+7	1	J3	UART_con
+8	1	J4	ISP_con
+9	1	J5	Adapter IN
+10	1	J6	Battery IN
+11	1	Q1	2N2222
+12	2	R1,R_RESET1	10k
+13	1	SW1	LCD_backlight
+14	1	SW2	UP
+15	1	SW3	OK
+16	1	SW4	CHANGE
+17	1	SW5	DOWN
+18	1	SW6	RST
+19	1	U1	ATmega8
+20	1	U2	MAX232
+21	1	U3	LM7805
