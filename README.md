@@ -1,7 +1,4 @@
-# dars-avr
-
-Digital Attendance Recording System 
-===================================
+# Digital Attendance Recording System 
 
 built on AVR microcontroller and programmed in assembly
 
